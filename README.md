@@ -1,5 +1,5 @@
 # Playground-v2.5
-This is a Playground-v2.5-1024px-aesthetic model template you can use to import your model on Inferless Platform. Playground v2.5 is a diffusion-based text-to-image generative model, and a successor to Playground v2. Playground v2.5 is the state-of-the-art open-source model in aesthetic quality. Our user studies demonstrate that our model outperforms SDXL, Playground v2, PixArt-α, DALL-E 3, and Midjourney 5.2.
+This is a animagine-xl-3.0 model template you can use to import your model on Inferless Platform. Animagine XL 3.0, the advanced open-source anime text-to-image model. Building on the foundation of Animagine XL 2.0 and powered by Stable Diffusion XL, this latest version offers superior image generation. It features enhancements in hand anatomy, efficient tag ordering, and a deeper understanding of anime concepts.
 
 ---
 ## Prerequisites
@@ -44,7 +44,7 @@ curl --location '<your_inference_url>' \
               "inputs": [
                 {
                   "data": [
-                    "Penguins having dinner"
+                    "1girl, arima kana, oshi no ko, solo, upper body, v, smile, looking at viewer, outdoors, night"
                   ],
                   "name": "prompt",
                   "shape": [
