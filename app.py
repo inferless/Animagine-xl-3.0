@@ -32,7 +32,7 @@ class InferlessPythonModel:
         prompt = inputs["prompt"]
         negative_prompt = inputs["negative_prompt"]
         
-        image = pipe(
+        image = self.pipe(
             prompt, 
             negative_prompt=negative_prompt, 
             width=832,
